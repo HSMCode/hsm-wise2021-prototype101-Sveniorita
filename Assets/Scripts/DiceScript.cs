@@ -35,8 +35,13 @@ public class DiceScript : MonoBehaviour
         if (result == luckyNumberOne || result == luckyNumberTwo || result == luckyNumberThree)
         {
             Debug.Log(luckyNumberText + result);
-
         }
+
+        else
+        {
+            Debug.Log(result + " you lost!");
+        }
+
     }
 
 
